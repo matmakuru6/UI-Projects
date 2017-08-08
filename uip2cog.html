@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+       <img src="cog.png" id="cog1" />	
+       <img src="cog.png" id="cog2" />
+       <img src="cog.png" id="cog3" />	   
+  
+     <script type="text/javascript" src="RotateScript.js">
+	 </script>
+	      
+		  <script>
+		  function RotateClass(){
+		  this.n=0;
+		  this.Rotation=function(id,dir)
+		  {
+		     if (dir == "ccw") 
+			 {
+		        this.n++;
+		     }
+			 else {
+			 
+			  this.n--;
+			  
+		     }
+			 if (this.n==360||this.n==-360) 
+			 {
+			  this.n=0;
+			 }
+			 
+			 var ref=document.getElementById(id);
+			 ref.style.transform = "rotate(" +this.n +"deg)";
+			 var functnRef=this;
+			 
+		setTimeout(function () {
+		functnRef.Rotation(id, dir);},5);
+		}
+		}
+		var obj1= new RotateClass();
+		var obj2= new RotateClass();
+	    var obj3= new RotateClass();
+		
+		obj1.Rotation("cog1","ccw");
+		obj2.Rotation("cog2","acw");
+		obj3.Rotation("cog3","ccw");
+		</script>
+		
+	</body>
+	</html>
+				
+				

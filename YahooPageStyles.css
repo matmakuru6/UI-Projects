@@ -1,0 +1,176 @@
+            div, p{
+                margin:0;
+                padding:0;
+            }
+
+            body{
+                padding-top:10px;
+            }
+
+            .YahooHelpForm{
+                border:1.5px dashed #E7E7E7;
+                margin:auto;
+                width:325px;
+                cursor:pointer;
+            }
+
+            .yahooImage{
+                width:325px;
+                height: 63px;
+            }
+
+            img{
+                width:325px;
+            }
+
+            .Status{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:18px;
+                color:#3F008F;
+                padding:10px 0 10px 10px ;
+                background-color:#FAFAFC;
+                border-bottom:1px solid #E7E7E7;
+               
+            }
+
+            .Mail{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:18px;
+                padding:10px 0 10px 10px;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .Circle{
+                float:right;
+                margin-right:10px;
+            }
+            .mailCircle{
+                float:right;
+                margin-right:10px;
+            }
+
+            .desktopCircle{
+                float:right;
+                margin-right:10px;
+            }
+
+            .androidCircle{
+                float:right;
+                margin-right:10px;
+            }
+
+            .desktopMail{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:16px;
+                background-color:#EEF3FF;
+                padding:10px 0 10px 10px;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .androidMail{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:16px;
+                background-color:#EEF3FF;
+                padding:10px 0 10px 10px;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .messenger{
+                font-size: 16px;
+                padding:10px 0 10px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .sports{
+                font-size: 16px;
+                padding:10px 0 10px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .finance{
+                font-size: 16px;
+                padding:10px 0 10px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .flickr{
+                font-size: 16px;
+                padding:10px 0 10px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .fixedgreenCircle{
+                padding:10px 0 15px 10px;
+            }
+
+             .greenouterCircle{
+                border:1px solid #4AA95B;
+                height:16px;
+                width:16px;
+                border-radius:50%;
+            }
+
+            .greeninnerCircle{
+                border:1px solid #4AA95B;
+                height:8px;
+                width:8px;
+                background-color:#4AA95B;
+                border-radius:50%;
+                margin:2.5px 3px;
+            }
+
+            .fixedorangeCircle{
+                position:relative;
+                top:-33px;
+                left:110px;
+            }
+
+            .orangeouterCircle{
+                border:1px solid #E89418;
+                height:16px;
+                width:16px;
+                border-radius:50%;
+            }
+
+            .orangeinnerCircle{
+                border:1px solid #E89418;
+                height:8px;
+                width:8px;
+                background-color:#E89418;
+                border-radius:50%;
+                margin:2.5px 3px;
+            }
+
+            .fixedCircles{
+                border-bottom:1px solid #E7E7E7;
+                background-color:#FAFAFC;
+            }
+
+            .contactOptions{
+                font-size: 16px;
+                padding:10px 0 10px 10px;
+                font-family:Arial, Helvetica, sans-serif;
+                border-bottom:1px solid #E7E7E7;
+            }
+
+            .emptySpace{
+                padding:10px 0 10px 0;
+                background-color:#FAFAFC;
+            }
+
+            .setAvailable{
+                position:relative;
+                top:-5.5px;
+                left:20px;
+            }
+
+            .setServiceDisruption{
+                position:relative;
+                top:-5.5px;
+                left:20px;
+            }
+         
